@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>7e2f5f55-9df2-4041-8745-5a5c6e440e5a</Guid>
+    <Name>UnrestrictedCustomization</Name>
+    <Description>UnrestrictedCustomization - cloned and fixed by Rusty with code from Jeb in the UC comments</Description>
+    <SteamPublishID>1135440846</SteamPublishID>
+    <AssemblyName>UnrestrictedCustomization</AssemblyName>
+    <RootNamespace>UnrestrictedCustomization</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\ModConfigMenuAPI" />
+    <Folder Include="Src\ModConfigMenuAPI\Classes" />
+    <Folder Include="Src\UnrestrictedCustomization\" />
+    <Folder Include="Src\UnrestrictedCustomization\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\UnrestrictedCustomization.chn">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\UnrestrictedCustomization.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Button.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Checkbox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Dropdown.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Instance.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Label.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Setting.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsGroup.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsPage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Slider.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Spinner.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_CfgHelpers.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_Includes.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_AppearenceGenerator.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ArrayUtil.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_BodyPartArchetype.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_BodyPartFilter.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_BodyPartLoader.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_BodyPartUtil.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_CharacterPoolUtil.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_Config.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_Customizer.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_Global.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ItemEquippedCallback.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_Localizer.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_Main.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_RestrictionDisabler.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_BodyPartFilterPanel.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_Changelog.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_CheckableDialogBox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_FilterPanel.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_McmConfig.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_modifiers_CustomizeBody.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_modifiers_CustomizeInfo.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_modifiers_CustomizeMenu.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_modifiers_CustomizeSparkBody.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_modifiers_ScreenModifier.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_screens_AppearanceList.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_screens_BodyPartList.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_screens_Customize.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_screens_EditArchetype.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_screens_Import.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_screens_Randomize.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_screens_RandomizeOptions.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_ui_ToolPanel.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\uc_VoicePlayer.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\X2DownloadableContentInfo_UnrestrictedCustomization.uc" />
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_Array.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_BoxedBool.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_DlcUtil.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_Global.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_HashMap.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ini_ConfigPatcher.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ini_Configurable.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_Serializer.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_Signal.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_SingletonStore.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ui_Checkbox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ui_ListItem.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ui_ListWrapper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ui_MiniPanel.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ui_NavigationNode.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ui_Screen.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\Classes\xmf_ui_Util.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrictedCustomization\macros.uci">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
